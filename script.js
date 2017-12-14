@@ -275,8 +275,9 @@ ctx.stroke();
   
   canvasTwelveth();
 
-/* hány darab háromszög
-var canvas = document.getElementById('myCanvas');
+  function canvasThirteenth() {
+/* hány darab háromszög */
+var canvas = document.getElementById('myCanvas13');
 var ctx = canvas.getContext('2d');
 
 for (i=450, z=0, x=canvas.width, y=canvas.height; i<=x; i--) {
@@ -306,10 +307,13 @@ for (i=450, z=0, x=canvas.width, y=canvas.height; i<=x; i--) {
     ctx.stroke();
   }
 }
-*/
+  }
+  
+  canvasThirteenth();
 
-/* triangle()
-var canvas = document.getElementById('myCanvas');
+  function canvasFourteenth() {
+/* triangle() */
+var canvas = document.getElementById('myCanvas14');
 var context = canvas.getContext('2d');
 
 var cw = canvas.width;
@@ -331,10 +335,13 @@ context.fill();
 triangle(230, 160, 50);
 triangle(270,100,50);
 triangle(200,50,150);
-*/
-
-/* filledStars()
-var canvas = document.getElementById('myCanvas');
+  }
+  
+  canvasFourteenth();
+  
+function canvasFifteenth() {
+/* filledStars() */
+var canvas = document.getElementById('myCanvas15');
 var context = canvas.getContext('2d');
 
 var cw = canvas.width;
@@ -362,10 +369,13 @@ context.fill();
 filledStar(40,50,75);
 filledStar(130,120,100);
 filledStar(250,220,150);
-*/
-
-/* lineToCenter
-var canvas = document.getElementById('myCanvas');
+}
+  
+  canvasFifteenth();
+  
+function canvasSixteenth() {
+/* lineToCenter */
+var canvas = document.getElementById('myCanvas16');
 var context = canvas.getContext('2d');
 var cw = canvas.width;
 var ch = canvas.height;
@@ -393,7 +403,9 @@ lineToCenter(randomX(450, 0), randomY(300, 0), "grey");
   lineToCenter(randomX(450, 0), randomY(300, 0), "black");
 }
 }
-*/
+}
+  
+  canvasSixteenth();
 
 /*var canvas = document.getElementById('myCanvas');
 var ctx = canvas.getContext('2d');
