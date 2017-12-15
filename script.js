@@ -245,8 +245,8 @@ ctx.fillRect(x,y,rw,rh);
   }
   
   canvasEleventh();
-
-  function canvasTwelveth() {
+   
+   function canvasTwelveth() {
 /* páratlan piramis */
 var canvas = document.getElementById('myCanvas12');
 var ctx = canvas.getContext('2d');
@@ -275,9 +275,9 @@ ctx.stroke();
   
   canvasTwelveth();
 
-  function canvasThirteenth() {
+  /*function canvasThirteenth() {
 /* hány darab háromszög */
-var canvas = document.getElementById('myCanvas13');
+/*var canvas = document.getElementById('myCanvas13');
 var ctx = canvas.getContext('2d');
 
 for (i=450, z=0, x=canvas.width, y=canvas.height; i<=x; i--) {
@@ -310,7 +310,7 @@ for (i=450, z=0, x=canvas.width, y=canvas.height; i<=x; i--) {
   }
   
   canvasThirteenth();
-
+  */
   function canvasFourteenth() {
 /* triangle() */
 var canvas = document.getElementById('myCanvas14');
@@ -338,6 +338,7 @@ triangle(200,50,150);
   }
   
   canvasFourteenth();
+  
   
 function canvasFifteenth() {
 /* filledStars() */
@@ -406,50 +407,5 @@ lineToCenter(randomX(450, 0), randomY(300, 0), "grey");
 }
   
   canvasSixteenth();
-
-/*var canvas = document.getElementById('myCanvas');
-var ctx = canvas.getContext('2d');
-var cw = canvas.width;
-var ch = canvas.height;
-var a = 15;
-
-
-for (i=50, x=0; x<=55; i+=102, x+=50) {
-  ctx.beginPath()
-ctx.strokeStyle = "orange";
-ctx.moveTo(cw/2-a-x, ch/2-a*5-i);
-ctx.lineTo(cw/2-a*2-x, ch/2-a*3-i);
-ctx.lineTo(cw/2-a-x, ch/2-a-i);
-ctx.lineTo(cw/2+a-x, ch/2-a-i);
-ctx.lineTo(cw/2+a*2-x, ch/2-a*3-i);
-ctx.lineTo(cw/2+a-x, ch/2-a*5-i);
-ctx.lineTo(cw/2-a-x, ch/2-a*5-i);
-ctx.stroke();
-  if (x == 50) {
-    var i = -52;
-ctx.beginPath()
-ctx.strokeStyle = "orange";
-ctx.moveTo(cw/2-a-x, ch/2-a*5-i);
-ctx.lineTo(cw/2-a*2-x, ch/2-a*3-i);
-ctx.lineTo(cw/2-a-x, ch/2-a-i);
-ctx.lineTo(cw/2+a-x, ch/2-a-i);
-ctx.lineTo(cw/2+a*2-x, ch/2-a*3-i);
-ctx.lineTo(cw/2+a-x, ch/2-a*5-i);
-ctx.lineTo(cw/2-a-x, ch/2-a*5-i);
-ctx.stroke();
-} else if (x == 0) {
-  var i = -87;
-  ctx.beginPath()
-ctx.strokeStyle = "orange";
-ctx.moveTo(cw/2-a-x, ch/2-a*5-i);
-ctx.lineTo(cw/2-a*2-x, ch/2-a*3-i);
-ctx.lineTo(cw/2-a-x, ch/2-a-i);
-ctx.lineTo(cw/2+a-x, ch/2-a-i);
-ctx.lineTo(cw/2+a*2-x, ch/2-a*3-i);
-ctx.lineTo(cw/2+a-x, ch/2-a*5-i);
-ctx.lineTo(cw/2-a-x, ch/2-a*5-i);
-ctx.stroke();
-}
-}*/
-  
-}
+   
+ }
