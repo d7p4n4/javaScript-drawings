@@ -274,43 +274,7 @@ ctx.stroke();
   }
   
   canvasTwelveth();
-
-  /*function canvasThirteenth() {
-/* hány darab háromszög */
-/*var canvas = document.getElementById('myCanvas13');
-var ctx = canvas.getContext('2d');
-
-for (i=450, z=0, x=canvas.width, y=canvas.height; i<=x; i--) {
-  if (i%4 == 0) {
-    ctx.beginPath();
-    ctx.strokeStyle = "blue";
-    ctx.moveTo(i, y/2);
-    ctx.lineTo(z, z);
-    ctx.stroke();
-  } else if (i%4 == 1) {
-    ctx.beginPath();
-    ctx.strokeStyle = "blue";
-    ctx.moveTo(i, y/2);
-    ctx.lineTo(x, z);
-    ctx.stroke();
-  } else if (i%4 == 2) {
-    ctx.beginPath();
-    ctx.strokeStyle = "blue";
-    ctx.moveTo(i, y/2);
-    ctx.lineTo(z, y);
-    ctx.stroke();
-  } else if (i%4 == 3) {
-    ctx.beginPath();
-    ctx.strokeStyle = "blue";
-    ctx.moveTo(i, y/2);
-    ctx.lineTo(x, y);
-    ctx.stroke();
-  }
-}
-  }
   
-  canvasThirteenth();
-  */
   function canvasFourteenth() {
 /* triangle() */
 var canvas = document.getElementById('myCanvas14');
